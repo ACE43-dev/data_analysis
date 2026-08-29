@@ -1,6 +1,6 @@
 # EDA
 ## titanic data analysis (file: analysedData/titanic.csv )
-### What I Did
+### What I Did?
 - Checked data quality with `.info()` and `.isnull().sum()`
 - Handled missing values: filled Age with median, Cabin/Embarked with placeholder
 - Analyzed survival rate by Sex using `.groupby()`
@@ -14,11 +14,11 @@
    and priority access to lifeboats.
 
 ## netflix data analysis
-### what i did 
-- converted to proper date format `pd.datetime()` 
-- drop the title which didn't have date `.dropna()`
-- done 1NF (normalization) in `date_added` column for EDA
-- Found top five genres
+### What i did ?
+- converted to proper date format `pd.datetime()` .
+- drop the title which didn't have date `.dropna()`.
+- done 1NF (normalization) in `date_added` column for EDA.
+- Found top five genres.
 ### Key Finding
 1. **Top Five Genre**:
    1. International Movies
@@ -28,4 +28,24 @@
    5. Documentaries
 2. **Realesed Titles Each year**:
    ![Netflix Titles Added by Year](image.png)
+
+## Happiness Data analysis
+### What I did ?
+- added `year` column in h21 and h24 (happiness 2021 report and happiness 2024 report).
+- concat `h21` and `h24` DataFrames.
+- created a DataFrame named `'a'` using pivot and fixed format to `percentage`.
+### What I Find?
+1. Top 5 Decrease in overall `Happiness` (ladder score)
+   1. Lebanon       
+   2. Bangladesh    
+   3. Afghanistan   
+   4. Ghana         
+   5. Comoros      
+2. Top 5 Increase in overall `Happiness` (ladder score)
+   1. Kuwait       
+   2. Venezuela    
+   3. China        
+   4. Vietnam      
+   5. Malaysia     
+ 
 
