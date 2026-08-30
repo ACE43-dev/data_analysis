@@ -47,5 +47,24 @@
    3. China        
    4. Vietnam      
    5. Malaysia     
- 
 
+## Sales data 
+### What I Did?
+- converted `InvoiceDate` to proper date time 
+- find stats that can be useful in business
+- made a column named `Price` = `Quantity`*`UnitPrice`
+### What I Find?
+- Number of Total Products =`4224`
+- Found Top 5 selling Products 
+   - DOTCOM POSTAGE	
+   - REGENCY CAKESTAND 3 TIER	
+   - WHITE HANGING HEART T-LIGHT HOLDER	
+   - PARTY BUNTING	
+   - JUMBO BAG RED RETROSPOT	
+- Top Revenues by year 2010
+
+   ![top 5 revenue by year 2010](image-1.png)
+   
+- Top Revenues by year 2011
+
+   ![top 5 revenue by year 2011](image-2.png)
