@@ -68,3 +68,9 @@
 - Top Revenues by year 2011
 
    ![top 5 revenue by year 2011](image-2.png)
+
+### 5. COVID-19 Time-Series Analysis
+Rolling averages to smooth daily case data and compare country trends.
+- **Key finding**: [add your comparison once confirmed]
+- **Skills**: `.rolling().mean()`, `.groupby().transform()`, time-series smoothing
+
